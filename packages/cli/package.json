@@ -1,6 +1,6 @@
 {
   "name": "@xf/cli",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "module": "index.js",
@@ -20,9 +20,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^17.0.13",
     "@xf/cli-core": "workspace:*",
     "@xf/cli-shared": "workspace:*",
     "tsup": "8.2.4",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.2",
+    "commander": "^13.1.0",
+    "consola": "^3.4.0",
+    "picocolors": "1.1.1",
+    "prompts": "^2.4.2"
   }
 }

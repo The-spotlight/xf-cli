@@ -3,7 +3,9 @@
   "target": "ES2015",
   "lib": ["ESNext", "DOM"],
   "module": "ESNext",
-  "moduleResolution": "Node"
+  "moduleResolution": "Node",
+  "resolveJsonModule": true,
+  "allowSyntheticDefaultImports": true
  },
  "include": ["packages/**/*"]
 }
