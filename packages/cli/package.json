@@ -14,7 +14,8 @@
   },
   "scripts": {
     "dev": "tsup --watch",
-    "build": "tsup"
+    "build": "tsup",
+    "release": "pnpm build && pnpm publish"
   },
   "keywords": [],
   "author": "",
@@ -24,10 +25,12 @@
     "@xf/cli-core": "workspace:*",
     "@xf/cli-shared": "workspace:*",
     "tsup": "8.2.4",
-    "typescript": "^5.8.2",
-    "commander": "^13.1.0",
+    "typescript": "5.8.2",
+    "commander": "13.1.0",
     "consola": "^3.4.0",
     "picocolors": "1.1.1",
-    "prompts": "^2.4.2"
+    "prompts": "2.4.2",
+    "fs-extra": "11.3.0",
+    "giget": "1.2.3"
   }
 }

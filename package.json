@@ -1,8 +1,12 @@
 {
   "name": "xf-cli",
   "version": "1.0.0",
+  "packageManager": "pnpm@10.6.3",
   "main": "index.js",
   "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "release": "turbo release",
     "lint:es": "eslint \"{packages,apps}/**/*.ts\"",
     "spellcheck": "cspell lint --dot --gitignore --color --cache --show-suggestions \"(packages|apps)/**/*.@(html|js|cjs|mjs|ts|tsx|css|scss|md)\"",
     "commit": "git-cz",
@@ -29,6 +33,7 @@
     "@commitlint/config-conventional": "19.2.2",
     "husky": "9.1.4",
     "cz-git": "1.11.1",
-    "commitizen": "4.2.4"
+    "commitizen": "4.2.4",
+    "turbo": "2.4.4"
   }
 }
