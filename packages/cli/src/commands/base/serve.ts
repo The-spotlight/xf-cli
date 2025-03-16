@@ -1,5 +1,5 @@
 import type { Command } from 'commander'
-import { spawn } from 'node:child_process'
+import { execSync } from 'node:child_process'
 import { logger } from '../../utils/logger'
 
 export function serve(program: Command) {
@@ -9,16 +9,19 @@ export function serve(program: Command) {
     .action(() => {
       logger.log('Serving CLI')
 
-      const command = 'npm'
-      const params = ['run', 'dev']
+      // const command = 'npm'
+      // const params = ['run', 'dev']
 
-      const child = spawn(command, params, {
-        cwd: process.cwd(), 
+      // const child = spawn(command, params, {
+      //   cwd: __dirname,
+      //   stdio: 'inherit',
+      // })
+      // child.on('close', code => {
+      //   logger.log('子进程退出，退出码 ' + code)
+      // })
+
+      execSync('npm run dev', {
         stdio: 'inherit'
-      })
-
-      child.on('close', code => {
-        logger.log('子进程退出，退出码 ' + code)
       })
     })
 }
