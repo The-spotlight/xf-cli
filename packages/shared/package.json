@@ -1,6 +1,6 @@
 {
-  "name": "@xf/cli-shared",
-  "version": "1.0.0",
+  "name": "xf-cli-cw-shared",
+  "version": ".0.1",
   "description": "",
   "main": "index.js",
   "scripts": {

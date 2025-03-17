@@ -1,6 +1,6 @@
 {
-  "name": "xf-cli-cw",
-  "version": "0.0.7",
+  "name": "xf-cli-x",
+  "version": "0.0.1",
   "author": "augus",
   "description": "脚手架工具，可拉取vue、react模版",
   "main": "index.js",
@@ -22,13 +22,13 @@
   "license": "ISC",
   "dependencies": {
     "@types/node": "^17.0.13",
-    "tsup": "8.2.4",
-    "typescript": "5.8.2",
     "commander": "13.1.0",
-    "consola": "^3.4.0",
+    "consola": "3.4.0",
+    "fs-extra": "11.3.0",
+    "giget": "1.2.3",
     "picocolors": "1.1.1",
     "prompts": "2.4.2",
-    "fs-extra": "11.3.0",
-    "giget": "1.2.3"
+    "tsup": "8.2.4",
+    "typescript": "5.8.2"
   }
 }
