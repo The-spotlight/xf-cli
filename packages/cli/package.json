@@ -1,6 +1,6 @@
 {
   "name": "xf-cli-cw",
-  "version": "0.0.4",
+  "version": "0.0.7",
   "author": "augus",
   "description": "脚手架工具，可拉取vue、react模版",
   "main": "index.js",
@@ -22,8 +22,6 @@
   "license": "ISC",
   "dependencies": {
     "@types/node": "^17.0.13",
-    "@xf/cli-core": "workspace:*",
-    "@xf/cli-shared": "workspace:*",
     "tsup": "8.2.4",
     "typescript": "5.8.2",
     "commander": "13.1.0",
