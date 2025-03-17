@@ -1,7 +1,6 @@
 {
   "name": "@xf/cli",
   "version": "0.0.1",
-  "private": false,
   "author": "augus",
   "description": "",
   "main": "index.js",
