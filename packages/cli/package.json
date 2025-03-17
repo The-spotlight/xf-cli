@@ -1,8 +1,8 @@
 {
-  "name": "@xf/cli",
-  "version": "0.0.1",
+  "name": "xf-cli-cw",
+  "version": "0.0.4",
   "author": "augus",
-  "description": "",
+  "description": "脚手架工具，可拉取vue、react模版",
   "main": "index.js",
   "module": "index.js",
   "types": "index.d.ts",
